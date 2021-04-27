@@ -1,0 +1,119 @@
+{
+	"compiler": {
+		"version": "0.5.11+commit.22be8592"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendToken",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "createNewToken",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "purchaseToken",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "burnToken",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Chapter1/Chapter1_13/Modifier.sol": "InheritanceModifier"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Chapter1/Chapter1_13/Modifier.sol": {
+			"keccak256": "0x2177d75b9dd7fb6f6f5ab84dad6de49672af13a138175956cfd5bdeef84216a0",
+			"urls": [
+				"bzz-raw://71b64ed143a504e2fd66c0b965112ae3f5b8e51b51c522470658232f9bf46c70",
+				"dweb:/ipfs/QmWjL3hbVrYydBcmAr3iJRu3JR5VsMWv3yyLfpFmt47gsN"
+			]
+		},
+		"Chapter1/Chapter1_13/Owned.sol": {
+			"keccak256": "0xf5e24c142aabac0a7d7ca99229ef73dbe0c0696d2ded8c8fa87e64869d6731da",
+			"urls": [
+				"bzz-raw://f6e4e140efbdd0e1a860c49507621de6308492270b5b5fddefc35758a6d5f267",
+				"dweb:/ipfs/QmYZTbU7b3ey82T1fhw3R6Wrjf778UR9RSZ48xfgVt8oLx"
+			]
+		}
+	},
+	"version": 1
+}
