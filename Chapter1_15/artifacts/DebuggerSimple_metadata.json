@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.13+commit.5b0b510c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "myUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_myuint",
+						"type": "uint256"
+					}
+				],
+				"name": "setMyUint",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"github/nguyenhat74/DAPPS/Chapter1_15/Debugger.sol": "DebuggerSimple"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"github/nguyenhat74/DAPPS/Chapter1_15/Debugger.sol": {
+			"keccak256": "0xe655eebd7297c6b703e66b44ed04c1c3873468548f484de61a21a993e78897ff",
+			"urls": [
+				"bzz-raw://6fe66a4543cce91e38d7b21b1011c74acb1b5911d4bc4e8a1cf1da034ec5d0fd",
+				"dweb:/ipfs/QmUhkNviQAgzT768VrQKpytfAtAWzJXnbUkK64B6KbN13Y"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.13+commit.5b0b510c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"github/nguyenhat74/DAPPS/Chapter1_15/MyContract.sol": "MyContract"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"github/nguyenhat74/DAPPS/Chapter1_15/MyContract.sol": {
+			"keccak256": "0x0dec417a298f67c79cb101ae356c3a917c39b680ff3669241444c8286adb1a47",
+			"urls": [
+				"bzz-raw://e48e14b0d59828e2f87bce9993325db57232603659535d2be2c9e7a095f3f6e2",
+				"dweb:/ipfs/QmNjAt5K1adGLh1orS9aCFv89Xc83GEkaRJuyq1B2nME8g"
+			]
+		}
+	},
+	"version": 1
+}
