@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.5.11+commit.22be8592"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendToken",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"github/nguyenhat74/DAPPS/Chapter1_16/Libraries.sol": "LibrarySimple"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"github/nguyenhat74/DAPPS/Chapter1_16/Libraries.sol": {
+			"keccak256": "0xf5f846499d165db1aa27c604fbfb04e5643f567cb4dc06e8dc2d0739d3c88e83",
+			"urls": [
+				"bzz-raw://ecea5f5d93c116a12b997e2d7f4dedd8802c16b5e6e8993ad310d8664f04965d",
+				"dweb:/ipfs/QmNP1h8afPazGUQHWbZo2AbHFNCfvqHkyNdQ1LuK8Vffpg"
+			]
+		}
+	},
+	"version": 1
+}
